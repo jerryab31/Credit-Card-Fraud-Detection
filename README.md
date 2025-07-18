@@ -6,7 +6,7 @@ This project uses machine learning to detect fraudulent credit card transactions
 
 ## 🔍 Project Overview
 
-- **Dataset**: [Kaggle Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+- **Dataset**: [Kaggle Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)  
 - **Rows**: 284,807 transactions  
 - **Class Imbalance**: 0.17% fraud cases (492 frauds)  
 - **Goal**: Build a robust binary classifier using AUPRC as the key metric
@@ -57,7 +57,7 @@ streamlit run fraud_detection_app.py
 
 ## 🌐 Live Demo (Streamlit Cloud)
 
-[👉 Launch Live App](https://fraud-detection-jerryab31.streamlit.app/) <!-- Replace with your actual Streamlit Cloud link -->
+[👉 Launch Live App](https://credit-card-fraud-detection-jerryab31.streamlit.app/)
 
 ---
 
