@@ -25,12 +25,20 @@ This project uses machine learning to detect fraudulent credit card transactions
 ---
 
 ## 📈 Model Performance
+Evaluation Metric: AUPRC (Area Under Precision-Recall Curve)
+Initial AUPRC (raw probabilities): 0.8562
+Best threshold (based on F1-score): 0.9821
+
+Post-threshold metrics:
+    • Average Precision Score: 0.7467
+    • Confusion Matrix & Classification Report used for detailed evaluation
+
+
 
 | Metric             | Value     |
 |--------------------|-----------|
-| ROC-AUC Score      | 0.86+     |
-| Average Precision  | ~0.78     |
-| Threshold (TPR - FPR) | 0.33 |
+| Average Precision  | ~0.85+     |
+| Threshold ( F1-score maximization) |0.9821 |
 
 ---
 
